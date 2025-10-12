@@ -40,6 +40,10 @@ public class Student {
     String getCourse() {
         return course;
     }
+    @Override
+    public String toString() {
+        return "Student [name=" + name + ", email=" + email + ", course=" + course + "]";
+    }
 
 
 }
