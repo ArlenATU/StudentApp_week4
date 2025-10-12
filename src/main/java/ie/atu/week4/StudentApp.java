@@ -17,7 +17,6 @@ public class StudentApp {
         int i = 0;
 
         while (i < count) {
-            boolean unique = false;
             System.out.print("Enter your name: ");
             String name = scanner.nextLine();
 
