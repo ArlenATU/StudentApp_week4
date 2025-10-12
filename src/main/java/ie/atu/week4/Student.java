@@ -29,9 +29,17 @@ public class Student {
         this.course = course;
     }
 
-    void getInfo() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Email: " + this.email);
-        System.out.println("Course: " + this.course);
+    String getName() {
+        return name;
     }
+
+    String getEmail() {
+        return email;
+    }
+
+    String getCourse() {
+        return course;
+    }
+
+
 }
