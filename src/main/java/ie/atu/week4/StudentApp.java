@@ -1,4 +1,5 @@
 package ie.atu.week4;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +14,13 @@ public class StudentApp {
 
         int i = 0;
         while (i < count) {
-            System.out.println();
+            System.out.println("Enter your name");
+            String name = scanner.nextLine();
+            System.out.println("Enter your email");
+            String email = scanner.nextLine();
+            System.out.println("Enter the name of your course");
+            String course = scanner.nextLine();
+            students.add(new Student(name, email, course));
         }
     }
 
